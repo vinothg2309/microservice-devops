@@ -1,8 +1,10 @@
 pipeline{
   agent any
   stages{
-    stage{
-      echo "microservices devops"
+    stage("CHECK"){
+      steps{
+        echo "microservices devops"
+      }
       }
     }
  }
