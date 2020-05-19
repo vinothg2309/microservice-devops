@@ -1,4 +1,8 @@
-
+library identifier: 'microservice-devops@master', 
+    retriever: modernSCM([$class: 'GitSCMSource', 
+                          credentialsId: '', 
+                          remote: 'https://github.com/vinothg2309/microservice-devops.git', 
+                          traits: [gitBranchDiscovery()]])
 pipeline {
     agent any
     parameters{
