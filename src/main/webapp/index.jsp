@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>My Webpage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -124,7 +124,7 @@ body {
 
 <div class="header">
   <h1>My Website</h1>
-  <p>A <b>responsive</b> website created by me.</p>
+  <p>A <b>responsive</b> website created by Vinoth.</p>
 </div>
 
 <div class="navbar">
